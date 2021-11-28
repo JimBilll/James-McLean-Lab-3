@@ -1,0 +1,10 @@
+<%- include('header'); -%>
+  <div class="content">
+    <h1 id="welcome"><%= product.name %></h1>
+    <h2><%= product.category %></h2>
+    <p>Supplier: <%= product.supplier %></p>
+    <p>Price: <%= product.price %>AED</p>
+    <p>Vat: <%= product.vat %>%</p>
+    <p>Stock: <%= product.stock %></p>
+  </div><br>
+<%- include('footer'); -%>

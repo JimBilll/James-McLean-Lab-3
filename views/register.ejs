@@ -1,0 +1,19 @@
+<%- include('header'); -%>
+ <div class="content">
+  <h1 id="welcome">Register</h1>
+  <form action="/api/register" method="POST">
+    <label for="num_client">Client Number:</label><br>
+    <input type="text" id="num_client" name="num_client" size=1><br>
+    <label for="society">Society:</label><br>
+    <input type="text" id="society" name="society"><br>
+    <label for="contact">Contact:</label><br>
+    <input type="text" id="Contacs" name="Contact"><br>
+    <label for="address">Address:</label><br>
+    <input type="text" id="address" name="address"><br>
+    <label for="zipcode">Zipcode:</label><br>
+    <input type="text" id="zipcode" name="zipcode" size=4><br><br>
+    <input type="submit" value="Submit">
+  </form>
+ </div>
+ <br>
+<%- include('footer'); -%>
